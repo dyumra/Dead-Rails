@@ -80,7 +80,7 @@ local CustomTheme = {
 }
 
 -- Create main window with custom theme
-local Window = Library.CreateLib("✨ Chxmp Kub Premium ✨", CustomTheme)
+local Window = Library.CreateLib("Dead Rails | DYHUB", CustomTheme)
 
 -- Store all connections for easy cleanup
 local Connections = {}
@@ -99,7 +99,7 @@ end
 
 -- ✅ Added by ChatGPT: Save/Load basic user settings system (scaffold)
 local HttpService = game:GetService("HttpService")
-local settingsFile = "ChxmpSettings.json"
+local settingsFile = "Settings.json"
 
 local function SaveSettings(data)
     if writefile then
@@ -185,9 +185,9 @@ end
 local InfoTab = Window:NewTab("ℹ️ Information")
 local InfoSection = InfoTab:NewSection("Welcome to Chxmp Kub Premium")
 
-InfoSection:NewLabel("👋 Created by: Chxm_p")
-InfoSection:NewLabel("🌟 Version: 0.1 ")
-InfoSection:NewLabel("📅 Last Updated: เดือนนี้ ")
+InfoSection:NewLabel("👋 Created by: DYHUB")
+InfoSection:NewLabel("🌟 Version: 0.51")
+InfoSection:NewLabel("📅 Last Updated: 27/06/2025")
 
 -- Button to copy Discord invite
 InfoSection:NewButton("🔗 Subscribe to my channel", "Copies youtube invite to clipboard", function()
@@ -774,7 +774,7 @@ end)
 
 -- Opening notification
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "✨ Chxmp Kub Premium ✨",
+    Title = "DYHUB'S TEAM",
     Text = "Loaded successfully! Mobile button added!",
     Duration = 5
 })
