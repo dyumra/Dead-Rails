@@ -1,4 +1,4 @@
-## ⚙️ Dupe - Dead Rails (Status: 🟢)
+## ⚙️ Function - Dead Rails (Status: 🟢)
 🎉 Welcome to **DYHUB!**
 The **Main-Module** script for **Dead Rails** is now back and fully operational.
 
