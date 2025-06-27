@@ -1,4 +1,6 @@
 
+-- I don't care because I use AI.
+
 -- ✅ Key System Protection (Added by ChatGPT)
 if not isfile or not readfile then
     game:GetService("Players").LocalPlayer:Kick("⚠️ Exploit does not support file functions")
